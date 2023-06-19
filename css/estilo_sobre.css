@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* imagem */
+
+.call{
+    float:right;
+    margin-top: -55px;
+    margin-right: 60px;
+}
+
+/* Formulario */
+.contato h1 {
+    background-color:#5CE1E6;
+    width: 1390px;
+    height: 50px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: -10px;
+    margin-top: -5px;
+    color: #3B316C;
+ }
+ .contato h1:hover{
+    background-color: #915AC2;
+    color:#FFFAFA;
+ }
+ .contato h2{
+    font-size: 18px;
+    color: #353535;
+ }
+ .contato {
+    display: inline-block;
+    background-color: #f8efed;
+    width: 1390px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: -10px;
+}
+
+fieldset{
+    width: 700px;
+    background-color: #FFFAFA;
+}
+
+.datebox{
+    background-color: #FFFAFA;
+    padding: 10px;
+}
+
+button{
+    background-color: #915AC2;
+}
+button:hover{
+    background-color:#5CE1E6 ;
+}
+a{
+    color: #FFFAFA;
+}
+
+a#titulo{
+   color:#915AC2;
+   font-size:18px;
+}

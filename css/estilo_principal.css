@@ -1,0 +1,97 @@
+  @font-face{
+    font-family: Amsterdam Four;
+    src:url(../fonts/amsterdam-four-ttf.ttf) ;
+  }
+
+body{
+  background: rgb(250,255,247);
+  background: linear-gradient(184deg, rgba(250,255,247,1) 0%, rgba(212,255,182,1) 48%, rgba(131,166,107,1) 100%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+/* Menu Fixo */
+.menu{
+  position:relative;
+  margin: -22px -10px 0px -20px;
+  height: 120px;
+  max-width: 100%;
+  min-width: 500px;
+  background-color: rgb(250, 250, 250);
+}
+.menu li{
+  left: 600px;
+  display:inline-block;
+  position: relative;
+  margin: 50px ;
+  padding: 0px;
+  font-size: 20px;
+}
+.menu a:hover{
+  color: brown;
+}
+.menu ul{
+  max-width: 2000px;
+  min-width: 500px;
+  display: flex;
+  margin-left: 60px;
+  margin-right: 10px;
+  list-style-type: none;
+  flex-direction: row;
+}
+.menu a{
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+.menu a:hover{
+  color: brown;
+}
+.menu img{
+  float: left;
+  position: relative;
+  margin-left: 80px;
+  width: 150px;
+  height: 130px;
+}
+/* Rodape */
+.rodape{
+  background-color: black;
+  position:relative;
+  height:300px;
+  width: 2000px;
+  margin: -8px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rodape p{
+  color:white;
+  font-size: 16px;
+}
+.rodape h1{
+  margin: 10px;
+  font-size: 22px;
+  margin-left: -5px;
+  color:wheat;
+}
+.contato {
+  margin-left: 100px;
+  margin-top: 30px;
+  text-align: left;
+  float: left;
+}
+.redes{
+  float: right;
+  margin-right: 100px;
+  margin-left: 150px;
+  margin-top: 30px;
+  text-align: left;
+}
+.logorodape img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  position: relative;
+  margin-left: 80px;
+  margin-top: 30px
+}

@@ -1,0 +1,53 @@
+/* Cabeçalho da Pagina */
+
+.cabecalho{
+    width: 2000px;
+    height: 400px;
+}
+.cabecalho h1 {
+    width: 1700px;
+    height: 100px;
+    padding-left: 300px;
+    padding-top: 40px;
+    text-align: left;
+    font-size: 35px;
+    color: aliceblue;
+    background-color: #4a7a5d;
+}
+.cabecalho h2{
+    width: 1000px;
+    height: 300px;
+    padding-left: 300px;
+    padding-top: 20px;
+    position: relative;
+    align-items: center;
+    text-align: justify;
+    font-size: 22px;
+}
+.linhaTemporal{
+    width: 1700px;
+    height: 2000px;
+    padding: 20px;
+    padding-left: 300px;
+    text-align: justify;
+}
+.linhaTemporal h1{
+    padding: 5px;
+    background-color: #70bd8f;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+.linhaTemporal h2{
+    font-size: 22px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.text {
+    width: 1300px;
+    float: left;
+}
+.text img{
+    padding: 20px;
+    margin-top: -10px;
+    float:right;
+}

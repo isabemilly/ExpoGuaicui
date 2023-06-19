@@ -1,0 +1,184 @@
+/* Topo da pagina inicial */
+
+body h2 {
+  font-size: 22px;
+
+}.topo{
+    background-image: url("../imagens/topo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    margin:-70px -10px 0px -10px;
+    height: 900px;
+    max-width: 2020px;
+    min-width: 500px;
+  }
+  h1#frase{
+    color:rgb(0, 0, 0);
+    margin-bottom: -10px;
+    font-family:"Amsterdam Four";
+    font-size: 100px;
+    text-align: center;
+    padding: 200px 0px 0px 50px;
+  }
+  h1#subfrase{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: -50px;
+    text-align: center;
+  }
+
+/* Corpos de texto da pagina inicial */
+
+  .introHis{
+    width: 2000px;
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: -50px;
+  }
+  .introHis h1{
+    background-color: #4a7a5d;
+    color: #ffffff;
+    text-align: center;
+    margin-right: 400px;
+    padding: 5px;
+    border-radius: 15px;
+    width: 350px;
+    height: 35px;
+    float: right;
+  }
+  .introHis h2{
+    font-size: 22px;
+    margin-right: 400px;
+    padding-top: 20px;
+    width: 600px;
+    text-align: justify;
+    float: right;
+  }
+  .introHis img{
+    float: left;
+    margin-left: 100px;
+    width: 700px;
+    height: 700px;
+  }
+  .introHis button{
+    background-color: #4a7a5d;
+    color:white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin-left: 300px;
+    float: left;
+  }
+  .introProj{
+    width: 2000px;
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .introProj h1{
+    background-color: #4a7a5d;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 350px;
+    height: 35px;
+    float: left;
+  }
+  .introProj h2{
+    margin-left: 100px;
+    padding-top: 20px;
+    width: 600px;
+    text-align: justify;
+    float: left;
+  }
+  .introProj img{
+    float: right;
+    margin-right: 250px;
+    width: 800px;
+    height: 800px;
+  }
+  .introProj button{
+    background-color: #4a7a5d;
+    color:white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin-top: 500px;
+    margin-left: -600px;
+  }
+  button:hover{
+    background-color: rgb(94, 79, 79);
+  }
+ .missao {
+    background-image: url("../imagens/fundo1.png");
+    width: 2000px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+ }
+ .missao h1{
+  background-color: rgb(48, 48, 48);
+  color: #ffffff;
+  text-align: center;
+  margin-left: 100px;
+  padding: 10px;
+  border-radius: 15px;
+  width: 350px;
+  height: 35px;
+}
+.missao h2{
+  color: #ffffff;
+  margin-left: 100px;
+  padding-top: 20px;
+  width: 600px;
+  text-align: justify;
+}
+  .introTurism {
+   width: 2000px;
+   height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+  }
+  .introTurism a#ir {
+  background-color: rgb(81, 81, 81);
+  font-size: 35px;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+  padding-top: 40px;
+  width: 500px;
+  height: 80px;
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+
+  }
+  .introTurism a#ficar {
+    background-color: rgb(81, 81, 81);
+    font-size: 35px;
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 40px;
+    width: 500px;
+    height: 80px;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+ 
+   }
+   .introTurism img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+   }
