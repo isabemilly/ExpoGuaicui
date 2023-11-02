@@ -1,0 +1,407 @@
+body{
+  width: 100%;
+}body p {
+  font-size: 22px;
+
+}.topo{
+    width: 100%;
+    background-image: url("../imagens/topo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:-70px -10px 0px -10px;
+    height: 900px;
+  }
+  h1#frase{
+    color:rgb(0, 0, 0);
+    margin-bottom: -10px;
+    font-family:"Amsterdam Four";
+    font-size:100px;
+    text-align: center;
+    padding: 200px 0px 0px 50px;
+  }
+  h1#subfrase{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: -50px;
+    text-align: center;
+  }
+/* Menu especial do index */
+
+.menuindex img{
+  padding-top: -3%;
+  margin-left: 5%;
+  width: 80px;
+  height: 80px;
+  }
+  
+  .menuindex  {
+  width: 100%;
+  padding: 5px 6%;
+  position:fixed;
+  top: 0;
+  left: 0;
+  
+  }
+  .menuindex li {
+    display: inline-block;
+    position: relative;
+  font-family: tahoma;
+    font-size: 18x;
+  }
+  .menuindex ul{
+     list-style-type: none;
+     margin-top: -3.5%;
+     margin-left: 20%;
+  }
+  .menuindex ul li{   
+     display: inline;
+     margin: 1px 40px;
+     position: relative;
+  }
+  .menuindex a {
+    padding-block: 16px;
+     color:#0b0a0a;
+     text-decoration: none;
+   }
+   .menuindex a:hover {
+    padding: 6px 8px;
+     background-color: #545454;
+     color: #ffffff;
+     border-radius: 0px 10px 0px 10px; ;
+   }
+  .menuindex ul ul{
+     display:none;
+     position: absolute;
+  
+  }.menuindex li ul {
+    width: 200px;
+     position:absolute;
+     display: none;
+  }
+  .menuindex ul li:hover ul{
+     display: block;
+  
+  }
+  .subindex {
+    width: 135px;
+    padding: 3% 3%;
+    margin: -1% 0% -5% 62%;
+    display: block;
+    background-color:#ffffff;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 0px 10px 0px 10px; ;
+  }
+  .subindex:hover{
+     background-color:#353535;
+     color: #ffffff;
+  }
+  
+  .menuindex.rolagem{
+    background-color: #ffffff;
+    padding: 0 4%;
+    height: 80px;
+    box-shadow: 2px 2px 20px 2px #717070 ;
+  }
+  .menuMobileIndex{
+    margin: -11% 80%;
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #0b0a0a;
+    cursor: pointer;
+ }
+ .menuMobileIndex::before, .menuMobileIndex::after{
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #0b0a0a;
+  margin-top: 5px;
+ 
+ }
+/* Corpos de texto da pagina inicial */
+ section{
+  width: 100%;
+  height: auto;
+ }
+  .introHis{
+  width: 100%;
+  height: 500px;
+  margin-top: -50px;
+  }
+  .introHis h1{
+  background-color: #4a7a5d;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+  margin-right: 100px;
+  width: 500px;
+  height: 35px;
+  float: right;
+  }
+  .introHis p{
+    font-size: 20px;
+    padding-top: 20px;
+    margin-right: 100px;
+    width: 600px;
+    text-align: justify;
+    float: right;
+  }
+  .introHis img{
+    float: left;
+    margin-top: -50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+  }
+  .introHis button{
+    background-color: #4a7a5d;
+    color:white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin-top: 25px;
+    margin-right: 100px;
+    float: right;
+  }
+  .introProj{
+    width:100%;
+    height: 500px;
+    padding-top: 100px;
+  }
+  .introProj h1{
+    background-color: #4a7a5d;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 15px;
+    width: 500px;
+    height: 35px;
+    float: left;
+  }
+  .introProj p{
+    float: left;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+    width: 700px;
+    text-align: justify;
+  }
+  .introProj img{
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+    width: 500px;
+    height: 500px;
+  }
+  .introProj button{
+    background-color: #4a7a5d;
+    color:white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 50px;
+    float: left;
+  }
+  button:hover{
+    background-color: rgb(94, 79, 79);
+  }
+ .missao {
+  background-image: url("../imagens/fundo1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+ }
+ .missao h1{
+  background-color: rgb(48, 48, 48);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 30%;
+  height: 32px;
+  margin-left: 20px;
+}
+.missao p{
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 100px;
+  padding-top: 20px;
+  width: 50%;
+  text-align: justify;
+}
+  .introTurism {
+   width: 100%;
+   height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+  }
+
+  .introTurism a {
+  background-color: rgb(81, 81, 81);
+  font-size: 35px;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+  padding-top: 40px;
+  width: 500px;
+  height: 80px;
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+
+  }
+   .introTurism a:hover{
+    background-color: #000;
+   }
+   .introTurism img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+   }
+
+   /* Tornando o site responsivo */
+   
+    @media screen and (max-width: 768px){
+      .topo{
+       background-image: url("../imagens/topoReduzido.png");
+       width: 100%;
+       height: 500px;
+       margin-bottom: -20px;
+      }
+      h1#frase{
+        font-size: 40px;
+        padding: 50px 0px 0px 50px;
+        margin-top: 15%;
+      }
+      h1#subfrase{
+        font-size: 10px;
+        margin-top: 1%;
+        margin-left: 10%;
+        text-align: center;
+      } 
+    .introHis, .introProj, .introTurism, .missao{
+      width: 100%;
+    }
+    .introHis, .introProj, .introTurism, .missao img{
+      margin: auto;
+      float: none;
+      width: 50px;
+      height: 50px;
+      padding: 0%;
+    }
+    .introHis, .introProj, .introTurism, .missao h1{
+      float: none;
+      width: 100%;
+      height: 100px;
+    }
+   }
+   @media screen and (max-width: 600px){
+    .topo{
+     background-image: url("../imagens/topoReduzido.png");
+     width: 100%;
+     height: 300px;
+     margin-bottom: 2%;
+    }
+    h1#frase{
+      font-size: 40px;
+      padding: 80px 0px 0px 50px;
+    }
+    h1#subfrase{
+      font-size: 10px;
+      margin-top: 1%;
+      margin-left: 10%;
+      text-align: center;
+    } 
+  .introHis, .introProj, .introTurism, .missao{
+    margin-bottom: 20%;
+    width: 100%;
+    height: auto;
+  }
+  img#imagem{
+  margin: 0;
+  float: none;
+  width: 80%;
+  height: 80%;
+  padding: 0% 10%;
+  }
+  h1#titulo{
+   padding: 1%;
+   margin-left: 12%;
+   float: none;
+   width: 80%;
+   height: 35px;
+  }
+  p#text{
+    margin-left: 12%;
+    float: none;
+    padding: 5%;
+    width: 70%;
+    height: auto;
+    font-size: 15px;
+  }
+  button#botao{
+    float: none;
+    width: 30%;
+    height: 30px;
+    padding-bottom: 2%;
+    margin-left: 60%;
+    font-size: 12px;
+  }
+  .missao{
+  display: inline-block;
+  align-items: center;
+   height: 500px;
+   width: 100%;
+  }
+  .missao h1{
+    padding: 4%;
+    margin: 10% 0% -10% 0%;
+    width: 100%;
+    height: 10px;
+
+  }
+  .missao p{
+    padding: 20%;
+    margin: 0;
+    width: 70%;
+    height: auto;
+    font-size: 18px;
+  }
+  .introTurism a{
+     width: 40%;
+     height: 70px;
+     font-size: 20px;
+  }
+  .menuMobileIndex{
+    display: block;
+  }
+ .menuindex ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    clip-path: circle(100px at 90% -15%);
+    transition: 1s ease-in-out;
+    pointer-events: none;
+ }
+ .ativarmenu .menuindex{
+  clip-path: circle(1500px at 90% -15%);
+  pointer-events: all;
+ }
+  } 
