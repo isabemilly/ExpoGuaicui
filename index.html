@@ -11,25 +11,23 @@
    <link rel= "stylesheet" type= "text/css" href="css/estilo_principal.css"/>
 
 </head>
-<header id="headerindex">    
-  <nav class="menuindex">
+<header id="header">    
+  <nav class="menu">
     <img src="imagens/3.png">
-    <button class="menuMobileIndex"></button>
-    <ul>
+    <button class="menuburguer" onclick="clickmenu()"></button>
+    <ul id="itensMenu">
       <li><a href="index.html"> INICIO</a>
-      <li><a>HISTORIA </a>
-            <ul> 
-              <li><a class="subindex" href="cultura.html">CULTURA</a></li>
-              <li><a class="subindex" href="linhaDoTempo.html"> LINHA DO TEMPO </a></li>
+      <li><a onclick="clicksub()"> ▼ HISTORIA </a>
+            <ul id="itensSub"> 
+              <li><a class="sub" href="cultura.html">CULTURA</a></li>
+              <li><a class="sub" href="linhaDoTempo.html"> LINHA DO TEMPO </a></li>
             </ul>
             </li>
       <li><a href= "turismo.html"> TURISMO</a></li>
-      <li><a href= "sobreNos.html">SOBRE NOS </a></li>
+      <li><a href= "sobreNos.html"> SOBRE NOS </a></li>
     </ul>
   </nav>
 </header>
-
-
 <body>
 <main>
   

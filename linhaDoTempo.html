@@ -2,34 +2,34 @@
 <html lang= "pt-br">
 
 <head>
-
    <meta charset= UTF-8/>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title> ExpoGuaicui | Portal </title>
+   <title> Linha do Tempo | ExpoGuaicui </title>
    <link rel="icon" href="imagens/iconlogo.png" type="image/png">
-   <link rel= "stylesheet" type= "text/css" href="css/estilo_historia.css">
+   <link rel= "stylesheet" type= "text/css" href="css/estilo_blog.css">
    <link rel= "stylesheet" type= "text/css" href="css/estilo_principal.css"/>
-
 </head>
-<header>
+
+<header id="header">    
   <nav class="menu">
     <img src="imagens/3.png">
-    <button class="menuMobileIndex"></button>
-    <ul>
+    <button class="menuburguer" onclick="clickmenu()"></button>
+    <ul id="itensMenu">
       <li><a href="index.html"> INICIO</a>
-      <li><a>HISTORIA </a>
-            <ul> 
+      <li><a onclick="clicksub()"> ▼ HISTORIA </a>
+            <ul id="itensSub"> 
               <li><a class="sub" href="cultura.html">CULTURA</a></li>
               <li><a class="sub" href="linhaDoTempo.html"> LINHA DO TEMPO </a></li>
             </ul>
             </li>
       <li><a href= "turismo.html"> TURISMO</a></li>
-      <li><a href= "sobreNos.html">SOBRE NOS </a></li>
+      <li><a href= "sobreNos.html"> SOBRE NOS </a></li>
     </ul>
   </nav>
 </header>
 
 <body>
+<main>
   <div class="cabecalho">
     <div>
       <h1> Guaicui, Minas Gerais </h1>
@@ -38,7 +38,7 @@
     </div>
   </div>
 
-  <div class="linhaTemporal">
+<div class="linhaTemporal">
 
   <div class="container">
   <div class="c1">
@@ -91,7 +91,7 @@
   <p><a>Youtube</a></p></p>
 </div>
 </footer>
-
+<script src="menu.js"></script>
 </body>
 </html>
 

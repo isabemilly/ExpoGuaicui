@@ -1,9 +1,20 @@
 window.addEventListener("scroll", function(){
-    let menuindex = document.querySelector('.menuindex')
-    menuindex.classList.toggle('rolagem', window.scrollY > 15)
+    let menu = document.querySelector('.menu')
+    menu.classList.toggle('rolagem', window.scrollY > 15)
 })
 
-const menuMobileIndex = document.querySelector(".menuMobileIndex");
-const menuindex = document.querySelector(".menuindex");
+function clickmenu(){
+    if (itensMenu.style.display == 'block'){
+        itensMenu.style.display = 'none'
+    }else{
+        itensMenu.style.display = 'block'
+    }    
+}  
 
-hamburger.addEventListener("click", () => menuindex.classList.toggle("active"));
+function clicksub(){
+     if(itensSub.style.display == 'block'){
+        itensSub.style.display = 'none'
+     }else{
+        itensSub.style.display = 'block'
+     }
+}

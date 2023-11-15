@@ -1,39 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagens/iconlogo.png" type="image/png">
-    <link rel= "stylesheet" type= "text/css" href="css/estilo_historia.css">
+    <link rel= "stylesheet" type= "text/css" href="css/estilo_blog.css">
     <link rel= "stylesheet" type= "text/css" href="css/estilo_principal.css"/> 
-    <title>Cultura & Historia </title>
+    <title> Cultura & Historia de Guaicui </title>
 </head>
 
-<header>
-    <nav class="menu">
-      <img src="imagens/3.png">
-      <button class="menuMobileIndex"></button>
-      <ul>
-        <li><a href="index.html"> INICIO</a>
-        <li><a>HISTORIA </a>
-              <ul> 
-                <li><a class="sub" href="cultura.html">CULTURA</a></li>
-                <li><a class="sub" href="linhaDoTempo.html"> LINHA DO TEMPO </a></li>
-              </ul>
-              </li>
-        <li><a href= "turismo.html"> TURISMO</a></li>
-        <li><a href= "sobreNos.html">SOBRE NOS </a></li>
-      </ul>
-    </nav>
-  </header>
+<header id="header">    
+  <nav class="menu">
+    <img src="imagens/3.png">
+    <button class="menuburguer" onclick="clickmenu()"></button>
+    <ul id="itensMenu">
+      <li><a href="index.html"> INICIO</a>
+      <li><a onclick="clicksub()"> ▼ HISTORIA </a>
+            <ul id="itensSub"> 
+              <li><a class="sub" href="cultura.html">CULTURA</a></li>
+              <li><a class="sub" href="linhaDoTempo.html"> LINHA DO TEMPO </a></li>
+            </ul>
+            </li>
+      <li><a href= "turismo.html"> TURISMO</a></li>
+      <li><a href= "sobreNos.html"> SOBRE NOS </a></li>
+    </ul>
+  </nav>
+</header>
 
 <body>
-
+<main>
 <div class="cabecalho">
-<div>
+   <div>
     <h1>Cultura & Historia</h1>
     <h2>A cidade recheada da aquicultura, da  religião & da Cultura </h2>
-</div></div>  
+   </div>
+ </div>  
 
 <div class="blog">
     <div>
@@ -148,6 +150,9 @@
     </div>
     </div>
 </div>
+
+</main>
+
 <footer class="rodape">
   <div class="logorodape"><img src="imagens/4.png"></div>
   
