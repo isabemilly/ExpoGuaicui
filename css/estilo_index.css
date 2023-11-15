@@ -25,101 +25,6 @@ body{
     margin-top: -50px;
     text-align: center;
   }
-/* Menu especial do index */
-
-.menuindex img{
-  padding-top: -3%;
-  margin-left: 5%;
-  width: 80px;
-  height: 80px;
-  }
-  
-  .menuindex  {
-  width: 100%;
-  padding: 5px 6%;
-  position:fixed;
-  top: 0;
-  left: 0;
-  
-  }
-  .menuindex li {
-    display: inline-block;
-    position: relative;
-  font-family: tahoma;
-    font-size: 18x;
-  }
-  .menuindex ul{
-     list-style-type: none;
-     margin-top: -3.5%;
-     margin-left: 20%;
-  }
-  .menuindex ul li{   
-     display: inline;
-     margin: 1px 40px;
-     position: relative;
-  }
-  .menuindex a {
-    padding-block: 16px;
-     color:#0b0a0a;
-     text-decoration: none;
-   }
-   .menuindex a:hover {
-    padding: 6px 8px;
-     background-color: #545454;
-     color: #ffffff;
-     border-radius: 0px 10px 0px 10px; ;
-   }
-  .menuindex ul ul{
-     display:none;
-     position: absolute;
-  
-  }.menuindex li ul {
-    width: 200px;
-     position:absolute;
-     display: none;
-  }
-  .menuindex ul li:hover ul{
-     display: block;
-  
-  }
-  .subindex {
-    width: 135px;
-    padding: 3% 3%;
-    margin: -1% 0% -5% 62%;
-    display: block;
-    background-color:#ffffff;
-    font-size: 15px;
-    text-align: center;
-    border-radius: 0px 10px 0px 10px; ;
-  }
-  .subindex:hover{
-     background-color:#353535;
-     color: #ffffff;
-  }
-  
-  .menuindex.rolagem{
-    background-color: #ffffff;
-    padding: 0 4%;
-    height: 80px;
-    box-shadow: 2px 2px 20px 2px #717070 ;
-  }
-  .menuMobileIndex{
-    margin: -11% 80%;
-    display: none;
-    border: none;
-    background: none;
-    border-top: 3px solid #0b0a0a;
-    cursor: pointer;
- }
- .menuMobileIndex::before, .menuMobileIndex::after{
-  content: " ";
-  display: block;
-  width: 30px;
-  height: 3px;
-  background: #0b0a0a;
-  margin-top: 5px;
- 
- }
 /* Corpos de texto da pagina inicial */
  section{
   width: 100%;
@@ -279,12 +184,12 @@ body{
       .topo{
        background-image: url("../imagens/topoReduzido.png");
        width: 100%;
-       height: 500px;
-       margin-bottom: -20px;
+       height: 600px;
+       margin:-120px 0 0 0 ;
       }
       h1#frase{
         font-size: 40px;
-        padding: 50px 0px 0px 50px;
+        padding: 70px 0px 0px 50px;
         margin-top: 15%;
       }
       h1#subfrase{
@@ -294,7 +199,8 @@ body{
         text-align: center;
       } 
     .introHis, .introProj, .introTurism, .missao{
-      width: 100%;
+      width: 80%;
+      height: auto;
     }
     .introHis, .introProj, .introTurism, .missao img{
       margin: auto;
@@ -308,13 +214,18 @@ body{
       width: 100%;
       height: 100px;
     }
+    .introHis, .introProj, .introTurism, .missao p{
+      font-size: 20px;
+      width: 80%;
+    }
    }
-   @media screen and (max-width: 600px){
+   
+   @media screen and (max-width: 580px){
     .topo{
      background-image: url("../imagens/topoReduzido.png");
      width: 100%;
      height: 300px;
-     margin-bottom: 2%;
+     margin:-70px 0 0 0 ;
     }
     h1#frase{
       font-size: 40px;
@@ -372,7 +283,6 @@ body{
     margin: 10% 0% -10% 0%;
     width: 100%;
     height: 10px;
-
   }
   .missao p{
     padding: 20%;
@@ -386,22 +296,4 @@ body{
      height: 70px;
      font-size: 20px;
   }
-  .menuMobileIndex{
-    display: block;
-  }
- .menuindex ul{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: column;
-    clip-path: circle(100px at 90% -15%);
-    transition: 1s ease-in-out;
-    pointer-events: none;
- }
- .ativarmenu .menuindex{
-  clip-path: circle(1500px at 90% -15%);
-  pointer-events: all;
- }
-  } 
+}
