@@ -1,0 +1,294 @@
+@font-face{
+  font-family: Amsterdam Four;
+  src:url(../fonts/amsterdam-four-ttf.ttf) ;
+}
+
+body{
+  width: 100%;
+  background:#F4FFF9;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.menu img{
+  padding-top: -3%;
+  margin-left: 5%;
+  width: 80px;
+  height: 80px;
+}
+   
+.menu {
+  width: 100%;
+  padding: 5px 6%;
+  position:fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 99;
+}
+
+.menu li {
+  display: inline-block;
+  position: relative;
+  font-family: tahoma;
+  font-size: 18x;
+}
+
+.menu ul{
+  list-style-type: none;
+  margin-top: -3.5%;
+  margin-left: 20%;
+}
+
+.menu ul li{   
+  display: inline;
+  margin: 1px 40px;
+  position: relative;
+}
+
+.menu a {
+  padding: 1%;
+  color:#0b0a0a;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #545454;
+  color: #ffffff;
+  border-radius: 0px 10px 0px 10px; ;
+}
+
+.menu ul ul{
+  display:none;
+  position: absolute;
+}
+
+.menu li ul {
+  width: 200px;
+  position:absolute;
+  display: none;
+}
+
+.sub {
+  width: 135px;
+  height: 27px;
+  margin: 2% 0% -5% 82%;
+  display: block;
+  background-color:#ffffff;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 0px 10px 0px 10px; ;
+}
+
+.sub:hover{
+  background-color:#353535;
+  color: #ffffff;
+}
+
+.menu.rolagem{
+  background-color: #ffffff;
+  padding: 0 4%;
+  height: 80px;
+  box-shadow: 2px 2px 20px 2px #717070 ;
+}
+
+.menuburguer{
+  margin: -11% 80%;
+  display: none;
+  border: none;
+  background: none;
+  border-top: 3px solid #0b0a0a;
+  cursor: pointer;
+}
+
+.menuburguer::before, .menuburguer::after{
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #0b0a0a;
+  margin-top: 5px;
+}
+
+/* Rodape */
+.rodape{
+  background-color: black;
+  position:relative;
+  height:300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape p{
+  color:white;
+  font-size: 13px;
+}
+
+.rodape h1{
+  padding: 10px;
+  font-size: 22px;
+  color:wheat;
+}
+
+.contato {
+  padding: 10px;
+  margin-top: 30px;
+  text-align: right;
+  float: left;
+}
+
+.redes{
+  padding: 10px;
+  float: right;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.redes{
+  padding: 15px;
+  float: right;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.logorodape img {
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  float: left;
+  position: relative;
+  margin-top: 30px
+}
+
+@media screen and (max-width: 768px){
+  .rodape{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 5% 0;
+    display: block;   
+  }
+  
+  .rodape p{
+    font-size: 15px;
+  }
+
+  .logorodape{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contato{
+    float: none;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .redes{
+    float: none;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .menuburguer{
+    display: block;
+    margin-top: -50px;
+  }
+
+  .menu ul{
+    display: none;
+  }
+  
+  .menu img{
+    width: 70px;
+    height:70px;
+  }
+
+  ul#itensMenu{
+    background-color: #ffffff;
+    width: 40%;
+    height: 100vh;
+    float: right;
+    margin: 0 -50px 0 0;
+    padding: 100px 20px 0 0;
+  }
+
+  ul#itensMenu li{
+    display: block;
+    text-align: left;
+  }
+
+  ul#itensMenu a{
+    padding: 12px 10px;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .menu ul ul{
+    display: inline-block;
+    position: relative;
+    padding:0;
+    margin: 0;
+  }
+
+  .menu li ul{
+    display: none;
+    position: relative;
+    right: 50%;
+  }
+
+  .menu a:hover{
+    background-color: #ffffff;
+    color: #0b0a0a;
+  }
+
+  .menu ul ul li a{
+    margin-block:  5px;
+    display: inline-block;  
+    text-align: left;
+  }
+
+  .sub li{
+    display: inline-block;
+    width: 20%;
+  } 
+}
+
+@media screen and (max-width: 425px){
+  ul#itensMenu{
+    background-color: #ffffff;
+    width: 55%;
+    height: 100vh;
+    float: right;
+    margin-right: -25px;
+    padding: 100px 5px 0 0;
+  }
+
+  ul#itensMenu li{
+    display: block;
+    text-align: left;
+  }
+
+  ul#itensMenu a{
+    padding: 12px 10px;
+    display: inline-block;
+    text-align: left;
+  }
+}

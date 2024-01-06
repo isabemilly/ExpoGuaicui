@@ -1,0 +1,428 @@
+body{
+  width: 100%;
+}body p {
+  font-size: 22px;
+
+}.topo{
+    width: 100%;
+    background-image: url("../imagens/topo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:-70px -10px 0px -10px;
+    height: 900px;
+  }
+  h1#frase{
+    color:rgb(0, 0, 0);
+    margin-bottom: -10px;
+    font-family:"Amsterdam Four";
+    font-size:100px;
+    text-align: center;
+    padding: 200px 0px 0px 50px;
+  }
+  h1#subfrase{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: -50px;
+    text-align: center;
+  }
+/* Corpos de texto da pagina inicial */
+ section{
+  width: 100%;
+  height: auto;
+ }
+  .introHis{
+  width: 100%;
+  height: 500px;
+  margin-top: -50px;
+  }
+  .introHis h1{
+  background-color: #4a7a5d;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+  margin-right: 100px;
+  width: 500px;
+  height: 35px;
+  float: right;
+  }
+  .introHis p{
+    font-size: 20px;
+    padding-top: 20px;
+    margin-right: 100px;
+    width: 600px;
+    text-align: justify;
+    float: right;
+  }
+  .introHis img{
+    float: left;
+    margin-top: -50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+  }
+  .introHis button{
+    background-color: #4a7a5d;
+    color:white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin-top: 25px;
+    margin-right: 100px;
+    float: right;
+  }
+  .introProj{
+    width:100%;
+    height: 500px;
+    padding-top: 100px;
+  }
+  .introProj h1{
+    background-color: #4a7a5d;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 15px;
+    width: 500px;
+    height: 35px;
+    float: left;
+  }
+  .introProj p{
+    float: left;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+    width: 700px;
+    text-align: justify;
+  }
+  .introProj img{
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+    width: 500px;
+    height: 500px;
+  }
+  .introProj button{
+    background-color: #4a7a5d;
+    color:white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 50px;
+    float: left;
+  }
+  button:hover{
+    background-color: rgb(94, 79, 79);
+  }
+ .missao {
+  background-image: url("../imagens/fundo1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+ }
+ .missao h1{
+  background-color: rgb(48, 48, 48);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 30%;
+  height: 32px;
+  margin-left: 20px;
+}
+.missao p{
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 100px;
+  padding-top: 20px;
+  width: 50%;
+  text-align: justify;
+}
+  .introTurism {
+   width: 100%;
+   height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+  }
+
+  .introTurism a {
+  background-color: rgb(81, 81, 81);
+  font-size: 35px;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+  padding-top: 40px;
+  width: 500px;
+  height: 80px;
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+
+  }
+   .introTurism a:hover{
+    background-color: #000;
+   }
+   .introTurism img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+   }
+
+   /* Tornando o site responsivo */
+   
+  @media screen and (max-width: 768px){
+    .topo{
+      background-image: url("../imagens/topoReduzido.png");
+      width: 100%;
+      height: 550px;
+      margin: 0px 0 0 0 ;
+    }
+
+    h1#frase{
+      font-size: 40px;
+      padding: 70px 0px 0px 50px;
+      margin-top: 15%;
+    }
+
+    h1#subfrase{
+      font-size: 10px;
+      margin-top: 1%;
+      margin-left: 10%;
+      text-align: center;
+    }
+
+    .introHis{
+      width: 100%;
+    }
+
+    .introHis p{
+      font-size: 18px;
+    }
+
+    .introProj{
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .introProj img{
+      width: 50%;
+      margin: 10px;
+    }
+
+    .introProj h1{
+      font-size: 20px;
+      margin: 0 15%;
+      padding: 10px;
+    }
+
+    .introProj p{
+      font-size: 18px;
+    }
+
+    .introProj a{
+      margin: 0 50%;
+    }
+
+    .missao{
+      width: 100%;
+      height: auto;
+    }
+
+    .missao h1{
+      width: 45%;
+      height: 30px;
+      padding: 10px;
+      font-size: 20px;
+      margin-right: 25px;
+    }
+
+    .missao p{
+      width: 45%;
+      font-size: 18px;
+      margin: 10px 15px;
+    }
+
+    .introTurism a{
+      font-size: 20px;
+      height: 30px;
+      padding: 15px 5px;
+      margin: -50px 10px;
+    }
+
+    .introTurism a img{
+      width: 20px;
+      height: 20px;
+    }
+
+    .logorodape img{
+      width: 100px;
+      margin: 0 40px;
+    }
+  }
+ 
+   @media screen and (max-width: 580px){
+    .topo{
+     background-image: url("../imagens/topoReduzido.png");
+     width: 100%;
+     height: 300px;
+     margin: -70px 0 0 0 ;
+    }
+    
+    h1#frase{
+      font-size: 40px;
+      padding: 80px 0px 0px 50px;
+    }
+    h1#subfrase{
+      font-size: 10px;
+      margin-top: 1%;
+      margin-left: 10%;
+      text-align: center;
+    } 
+  .introHis, .introProj, .introTurism, .missao{
+    margin-bottom: 20%;
+    width: 100%;
+    height: auto;
+  }
+  img#imagem{
+  margin: 0;
+  float: none;
+  width: 80%;
+  height: 80%;
+  padding: 0% 10%;
+  }
+  h1#titulo{
+   padding: 1%;
+   margin-left: 12%;
+   float: none;
+   width: 80%;
+   height: 35px;
+  }
+  p#text{
+    margin-left: 12%;
+    float: none;
+    padding: 5%;
+    width: 70%;
+    height: auto;
+    font-size: 15px;
+  }
+  button#botao{
+    float: none;
+    width: 30%;
+    height: 30px;
+    padding-bottom: 2%;
+    margin-left: 60%;
+    font-size: 12px;
+  }
+
+  .missao{
+    display: inline-block;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .missao h1{
+    padding: 4%;
+    margin: 10% 0% -10% 0%;
+    width: 100%;
+    height: 10px;
+  }
+  .missao p{
+    padding: 20%;
+    margin: 0;
+    width: 70%;
+    height: auto;
+    font-size: 18px;
+  }
+  .introTurism a{
+     width: 40%;
+     height: 70px;
+     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body{
+    width: 425px;
+  }
+
+  .menu{
+    max-width: 425px;
+    padding: 0;
+    margin: 0 0 0 -20px;
+    height: 100px;
+  }
+
+  .menu img{
+    padding: 0;
+    margin: 0;
+  }
+
+  .topo{
+    margin: -65px 0;
+  }
+
+  .introHis{
+    max-width: 425px;
+    margin: -55px 0 0 0;
+  }
+
+  .introProj{
+    max-width: 425px;
+    margin: -100px 0 10px 0;
+  }
+
+  .introProj a{
+    margin: 5px 0;
+  }
+
+  .missao{
+    max-width: 425px;
+    height: auto;
+    margin: 0 0 65px 0;
+  }
+
+  .missao h1{
+    max-width: 100%;
+    margin-top: 25px;
+    padding: 10px 0;
+    text-align: center;
+    height: auto;
+  }
+
+  .introTurism{
+    width: 425px;
+    margin: 0 0 70px 0;
+  }
+
+  .rodape{
+    width: 425px;
+    margin: 0;
+  }
+
+  .logorodape{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logorodape img{
+    min-width: px;
+}
+
+.redes{
+    width: 100%;
+}
+}
